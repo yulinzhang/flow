@@ -1,7 +1,7 @@
-name: flow
+name: flowut
 
 dependencies:
-    - python==3.7.3
+    - python==3.7.10
     - pip:
         - scipy==1.1.0
         - lxml==4.4.1
@@ -11,18 +11,18 @@ dependencies:
         - pip>=18.0
         - tensorflow==1.15.2
         - setuptools==41.0.0
-        - plotly==2.4.0
-        - gym==0.14.0
+        - plotly
+        - gym
         - pyprind==2.11.2
-        - nose2==0.8.0
+        - nose2
         - cached_property
         - joblib==0.10.3
         - matplotlib==3.0.0
         - dill
         - lz4
-        - ray==0.8.0
         - setproctitle
         - psutil
         - opencv-python
         - boto3==1.10.45
-        - redis~=2.10.6
+        - numpy==1.19.5
+        - redis
