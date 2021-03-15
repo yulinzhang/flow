@@ -16,3 +16,4 @@ config["num_workers"] = 1
 trainer = ppo.PPOTrainer(config=config, env="CartPole-v0")
 result = trainer.train()
 pretty_print(result)
+
